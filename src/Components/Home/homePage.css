@@ -1,0 +1,52 @@
+
+.main-box{
+    border: 1px solid blue;
+}
+.nav-box{
+border: 1px solid red;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center
+}
+
+.nav-title{
+   
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+
+.input-form{
+    width: 100%;
+border: 1px solid green;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+input{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+}
+
+.add-to-self{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 1px solid rgb(11, 182, 11);
+    border-radius: 10px;
+    background-color: rgb(11, 182, 11);
+    color: white;
+}
+
+.cards-box{
+    width: 99vw;
+    min-height:90vh;
+    height: auto;
+border:1px solid blue;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
